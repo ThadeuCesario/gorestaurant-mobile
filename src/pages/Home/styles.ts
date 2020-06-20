@@ -15,13 +15,16 @@ export const Title = styled.Text`
   line-height: 50px;
   color: #fff;
   margin-top: 80px;
+
   width: 250px;
+
   font-family: 'Poppins-Regular';
 `;
 
 export const NavigationButton = styled.TouchableOpacity`
   background: #ffb84d;
   border-radius: 8px;
+
   flex-direction: row;
   align-items: center;
 `;
@@ -32,12 +35,14 @@ export const ButtonText = styled.Text`
   line-height: 22px;
   color: #7a1818;
   flex: 1;
+
   text-align: center;
 `;
 
 export const IconContainer = styled.View`
   background-color: #ffc46b;
   padding: 16px;
+
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 `;
